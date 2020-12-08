@@ -66,3 +66,71 @@ form{
 }
 
 /*HOME*/
+
+.overskrift {
+    font-size: 28px; 
+}
+
+img{
+    max-width: 100%;
+}
+
+body {
+    /*position: absolute;*/
+    background-image: url(img/Brtree.gif);
+    /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height 
+  background-attachment: fixed;*/
+  
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+  min-height: 77vh;
+}
+
+html {
+    min-width: fit-content;
+}
+h1 {
+    font-family: lemonmilk;
+}
+
+
+.tree {
+    justify-content: center;
+    width: 100%;
+    margin: auto; 
+    
+}
+
+.menu {
+    border: 2px solid black;
+    border-radius: 25px;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    margin-left: 50px;
+    margin-bottom: 15px;
+}
+
+.icon {
+    width: 50px;
+    justify-self: center;
+    margin: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+.gaver {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 409px;
+    position: fixed;
+}
