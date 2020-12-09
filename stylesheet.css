@@ -264,3 +264,52 @@ h1 {
   }
 
 
+/*JULEJAGT*/
+
+.julejagt_body{
+background: none;
+}
+
+.julejagt{
+font-family: lemonmilk;
+text-align: center;
+}
+
+.logo_center{
+width: 200px;
+margin-left: 82px;
+}
+
+.info{
+    font-family: lemonmilk;
+    font-size: 24px;
+    padding-left: 2px;
+    padding-right: 2px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.start{
+    background-color: #056DB5;
+    border-radius: 17px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+    width: 200px;
+    margin-left: 81px;
+}
+
+.start_tekst{
+    font-size: 28px;
+}
+
+.info_nederst{
+    font-family: lemonmilk;
+    text-align: center;
+}
+
+.kryds_julejagt{
+    width: 40px;
+}
