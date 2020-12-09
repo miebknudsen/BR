@@ -147,13 +147,13 @@ img{
 }
 
 body {
-    background-image: url(img/Brtree.gif);
+    background-image: url(img/stående_juletræ.png);
   background-position: center center;
   
   background-repeat: no-repeat;
 
   background-size: cover;
-  min-height: 77vh;
+  min-height: 77vh
 }
 
 html {
@@ -168,7 +168,6 @@ h1 {
     justify-content: center;
     width: 100%;
     margin: auto; 
-    
 }
 .gaver {
     display: grid;
@@ -196,6 +195,26 @@ h1 {
      margin-top: 10px;
   }
   .præmie_text {
+      font-family: lemonmilk;
       text-align: center;
       font-size: 30px;
+  }
+
+  .indløs{
+      border-radius: 25px;
+      height: 55px;
+      background-color: #056DB5;
+      font-family: lemonmilk;
+      color: white;
+      font-size: 17px;
+      margin-top: 20px;
+      width: 110px;
+      border: none;
+      margin-left: 130px;
+  }
+
+  h2{
+      font-family: lemonmilk;
+      font-size: 25px;
+      justify-self: center;
   }
