@@ -230,3 +230,25 @@ h1 {
   }
 
   /*QR TIL AT INDLØSE ADVENTSGAVEN*/
+
+  .qr_indløs {
+      background: none;
+  }
+  .logo {
+    width: 150px;
+    margin-left: 200px;
+  }
+
+  .tekst_qr {
+      font-family: lemonmilk;
+      font-size: 27px;
+      text-align: center;
+  }
+
+  .kode {
+      margin-left: 52px;
+      margin-right: 52px;
+      margin-bottom: 15px;
+  }
+
+
