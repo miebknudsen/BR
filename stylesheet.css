@@ -134,3 +134,58 @@ h1 {
     margin-top: 409px;
     position: fixed;
 }
+
+
+/*PRÆMIE*/
+
+.overskrift {
+    font-size: 28px; 
+}
+
+img{
+    max-width: 100%;
+}
+
+body {
+    background-image: url(img/Brtree.gif);
+  background-position: center center;
+  
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  min-height: 77vh;
+}
+
+html {
+    min-width: fit-content;
+}
+h1 {
+    font-family: lemonmilk;
+}
+
+
+.tree {
+    justify-content: center;
+    width: 100%;
+    margin: auto; 
+    
+}
+.gaver {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 409px;
+    position: fixed;
+}
+
+  .præmie_boks {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.9;
+  }
+  
+  .præmie_boks {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+  }
