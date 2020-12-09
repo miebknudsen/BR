@@ -140,6 +140,8 @@ h1 {
 
 .overskrift {
     font-size: 28px; 
+    margin-bottom: 5px;
+    margin-top: 7px;
 }
 
 img{
@@ -186,7 +188,7 @@ h1 {
     margin: 5%;
     font-weight: bold;
     color: #000000;
-    margin-top: 40px;
+    margin-top: 18px;
   }
 
   .præmie {
@@ -202,19 +204,29 @@ h1 {
 
   .indløs{
       border-radius: 25px;
-      height: 55px;
+      height: 40px;
       background-color: #056DB5;
       font-family: lemonmilk;
       color: white;
-      font-size: 17px;
-      margin-top: 20px;
-      width: 110px;
+      font-size: 20px;
+      margin-top: 30px;
+      width: 120px;
       border: none;
       margin-left: 130px;
   }
 
   h2{
       font-family: lemonmilk;
-      font-size: 25px;
-      justify-self: center;
+      font-size: 20px;
+      text-align: center;
+
   }
+
+  .gem {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      justify-content: space-between; 
+  }
+
+  /*QR TIL AT INDLØSE ADVENTSGAVEN*/
