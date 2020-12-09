@@ -138,11 +138,11 @@ h1 {
 
 /*PRÆMIE*/
 
-.overskrift {
+/* .overskrift {
     font-size: 28px; 
     margin-bottom: 5px;
     margin-top: 7px;
-}
+} */
 
 img{
     max-width: 100%;
@@ -150,10 +150,14 @@ img{
 
 body {
  background-image: url(img/stående_juletræ.png);
- background-position: center center;
-  background-size:325px;
-  min-height: 77vh
-  
+ /* background-position: center center;  */
+ background-position: top;
+ background-size:360px;
+ min-height: 77vh; 
+ max-height: 100vh;
+ overflow: hidden;
+ 
+
 }
 
 html {
@@ -188,7 +192,7 @@ h1 {
     margin: 5%;
     font-weight: bold;
     color: #000000;
-    margin-top: 18px;
+    margin-top: 40px;
   }
 
   .præmie {
@@ -203,16 +207,23 @@ h1 {
   }
 
   .indløs{
+      display: flex;
+      justify-content: center;
+      align-items: center;
       border-radius: 25px;
-      height: 40px;
+      height: 50px;
       background-color: #056DB5;
       font-family: lemonmilk;
       color: white;
-      font-size: 20px;
+      font-size: 25px;
       margin-top: 30px;
       width: 120px;
       border: none;
       margin-left: 130px;
+  }
+
+  .kryds {
+      width: 40px;
   }
 
   h2{
@@ -227,6 +238,7 @@ h1 {
       align-items: center;
       justify-content: center;
       justify-content: space-between; 
+      font-size: 40px;
   }
 
   /*QR TIL AT INDLØSE ADVENTSGAVEN*/
