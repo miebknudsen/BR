@@ -189,3 +189,13 @@ h1 {
     font-weight: bold;
     color: #000000;
   }
+
+  .præmie {
+      width: 140px;
+     margin-left: 90px;
+     margin-top: 10px;
+  }
+  .præmie_text {
+      text-align: center;
+      font-size: 30px;
+  }
