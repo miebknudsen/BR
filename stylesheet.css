@@ -221,7 +221,6 @@ h1 {
       border: none;
       margin-left: 130px;
   }
-
   .kryds {
       width: 40px;
   }
@@ -313,3 +312,29 @@ margin-left: 82px;
 .kryds_julejagt{
     width: 40px;
 }
+
+/*KLAR PARAT*/
+
+.klarparat_body{
+ background-image: url(img/julejagt.png);
+ background-size: cover;
+ height: 100%;
+ width: 100%;
+margin: 0px;
+}
+
+.tekst_klarparat{
+    text-align: center;
+}
+
+.kryds_klarparat{
+    margin-top: 420px;
+    margin-left: 10px;
+}
+
+.klarparat {
+    background: url(images/bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+  }
