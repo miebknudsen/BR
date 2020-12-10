@@ -343,3 +343,63 @@ margin: 0px;
 .qrjagt {
     
 }
+
+
+/*KAMERA*/
+
+.KAMERA{
+background: url(img/fototilfoto.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;}
+
+.kamera_body{
+    background: none;
+    font-family: lemonmilk;
+}
+
+.fototilfoto{
+    align-items: center;
+}
+
+.qrbillede{
+    margin-top: 224px;
+    margin-left: 186px;
+    width: 21px;
+    position: fixed;
+}
+
+.qrbillede1{
+    margin-top: 452px;
+    margin-left: 223px;
+    width: 21px;
+    position: fixed;
+}
+
+.qrbilleder{
+    font-family: lemonmilk;
+    position: fixed;
+}
+
+.kamera_funktioner{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 500px;
+    text-align: center;
+    background-color: black;
+    border-radius: 0px;
+    color: white;
+    height: 200px;
+    width: 200px;
+    margin-left: 81px;
+    
+}
+
+.mini_billede{
+    position: fixed;
+    width: 50px;
+}
+
+#foto{
+    color: yellow;
+}
