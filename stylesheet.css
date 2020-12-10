@@ -353,65 +353,6 @@ margin: 0px;
     
 }
 
-
-/*KAMERA*/
-
-.KAMERA{
-background: url(img/fototilfoto.jpg) no-repeat center center fixed;
-    background-size: cover;
-    height: 100%;
-    overflow: hidden;}
-
-.kamera_body{
-    background: none;
-    font-family: lemonmilk;
-}
-
-.fototilfoto{
-    align-items: center;
-}
-
-.qrbillede{
-    margin-top: 224px;
-    margin-left: 186px;
-    width: 21px;
-    position: fixed;
-}
-
-.qrbillede1{
-    margin-top: 452px;
-    margin-left: 223px;
-    width: 21px;
-    position: fixed;
-}
-
-.qrbilleder{
-    font-family: lemonmilk;
-    position: fixed;
-}
-
-.kamera_funktioner{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 500px;
-    text-align: center;
-    background-color: black;
-    border-radius: 0px;
-    color: white;
-    height: 200px;
-    width: 200px;
-    margin-left: 81px;
-    
-}
-
-.mini_billede{
-    position: fixed;
-    width: 50px;
-}
-
-#foto{
-    color: yellow;
-}
 .hovedetekst {
     text-align: center;
     margin-top: 49px;
@@ -497,4 +438,123 @@ background: url(img/fototilfoto.jpg) no-repeat center center fixed;
         margin-top: -37px;
         margin-left: 264px;
         color: white;
+}
+
+
+
+/*KAMERA*/
+
+.KAMERA{
+background: url(img/fototilfoto.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;}
+
+.kamera_body{
+    background: none;
+    font-family: lemonmilk;
+}
+
+.fototilfoto{
+    align-items: center;
+}
+
+.qrbillede{
+    margin-top: 224px;
+    margin-left: 186px;
+    width: 21px;
+    position: fixed;
+}
+
+.qrbillede1{
+    margin-top: 452px;
+    margin-left: 223px;
+    width: 21px;
+    position: fixed;
+}
+
+.qrbilleder{
+    font-family: lemonmilk;
+    position: fixed;
+}
+
+.kamera_funktioner{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 500px;
+    text-align: center;
+    background-color: black;
+    border-radius: 0px;
+    color: white;
+    height: 200px;
+    width: 200px;
+    margin-left: 81px;
+    
+}
+
+.mini_billede{
+    position: fixed;
+    width: 50px;
+}
+
+#foto{
+    color: yellow;
+}
+
+
+/*ØNSKELISTEN*/
+
+.ønskelisten_body{
+    font-family: lemonmilk;
+    background: none;
+}
+
+.ønskelisten{
+    text-align: center;
+    font-size: 30px;
+    font-family: lemonmilk;
+    margin-top: 50px;
+    margin-bottom: 26px;
+}
+
+.drage{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.tilføj{
+    display: flex;
+    border-radius: 17px;
+    background-color: #056DB5;
+    color: white;
+    text-align: center;
+    height: 59px;
+    width: 239px;
+    margin-left: 65px;
+    margin-top: 13px;
+}
+
+.julelogo_ønskelisten{
+    width: 130px;
+    margin-left: 110px;
+    margin-top: 20px;
+}
+
+.fortsæt{
+    text-align: center;
+    font-family: lemonmilk;
+}
+
+.fortsæt1{
+    margin-left: 73px;
+    margin-top: -8px;
+    font-family: lemonmilk;
+}
+
+.lillepil{
+    position: absolute;
+    margin-left: 260px;
+    margin-top: -35px;
+    width: 36px;
+
 }
