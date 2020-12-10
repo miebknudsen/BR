@@ -75,7 +75,7 @@ img{
     max-width: 100%;
 }
 
-body {
+.home {
     /*position: absolute;*/
     background-image: url(img/Brtree.gif);
     /* Background image is centered vertically and horizontally at all times */
@@ -338,3 +338,8 @@ margin: 0px;
     height: 100%;
     overflow: hidden;
   }
+/*lav ønskeliste*/
+
+.qrjagt {
+    
+}
