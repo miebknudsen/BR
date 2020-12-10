@@ -75,7 +75,7 @@ img{
     max-width: 100%;
 }
 
-body {
+.home {
     /*position: absolute;*/
     background-image: url(img/Brtree.gif);
     /* Background image is centered vertically and horizontally at all times */
@@ -312,4 +312,10 @@ margin-left: 82px;
 
 .kryds_julejagt{
     width: 40px;
+}
+
+/*lav ønskeliste*/
+
+.qrjagt {
+    
 }
