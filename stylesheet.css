@@ -148,7 +148,7 @@ img{
     max-width: 100%;
 }
 
-body {
+.præmie_body {
  background-image: url(img/stående_juletræ.png);
  /* background-position: center center;  */
  background-position: top;
@@ -157,6 +157,7 @@ body {
  max-height: 100vh;
  overflow: hidden;
  margin: 0;
+ background-repeat: no-repeat;
  
 
 }
@@ -223,13 +224,17 @@ h1 {
       margin-left: 130px;
   }
   .kryds {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
       width: 40px;
+      margin-left: 10px;
   }
 
   h2{
       font-family: lemonmilk;
       font-size: 20px;
       text-align: center;
+      margin-right: 5px;
 
   }
 
