@@ -460,6 +460,7 @@ background: url(img/fototilfoto.jpg) no-repeat center center fixed;
 .kamera_body{
     background: none;
     font-family: lemonmilk;
+    margin: 0;
 }
 
 .fototilfoto{
@@ -486,7 +487,7 @@ background: url(img/fototilfoto.jpg) no-repeat center center fixed;
 }
 
 .kamera_funktioner{
-    display: flex;
+    display: grid;
     justify-content: space-between;
     margin-top: 500px;
     text-align: center;
@@ -496,12 +497,23 @@ background: url(img/fototilfoto.jpg) no-repeat center center fixed;
     height: 200px;
     width: 500px;
     max-width: 100%;
+    grid-template-columns: repeat(3, 1fr);
     
 }
 
 .mini_billede{
-    position: fixed;
     width: 50px;
+    position: fixed;
+    margin-top: -26px;
+    margin-left: 29px;
+}
+
+.knap{
+    width: 70px;
+    position: fixed; 
+    margin-top: -70px;
+    display: flex;
+    margin-left: 150px;
 }
 
 #foto{
