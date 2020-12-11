@@ -156,6 +156,7 @@ body {
  min-height: 77vh; 
  max-height: 100vh;
  overflow: hidden;
+ margin: 0;
  
 
 }
@@ -460,15 +461,15 @@ background: url(img/fototilfoto.jpg) no-repeat center center fixed;
 }
 
 .qrbillede{
-    margin-top: 224px;
-    margin-left: 186px;
+    margin-top: 232px;
+    margin-left: 198px;
     width: 21px;
     position: fixed;
 }
 
 .qrbillede1{
-    margin-top: 452px;
-    margin-left: 223px;
+    margin-top: 460px;
+    margin-left: 230px;
     width: 21px;
     position: fixed;
 }
@@ -479,7 +480,7 @@ background: url(img/fototilfoto.jpg) no-repeat center center fixed;
 }
 
 .kamera_funktioner{
-    display: flex;
+    display: grid;
     justify-content: space-between;
     margin-top: 500px;
     text-align: center;
@@ -487,14 +488,22 @@ background: url(img/fototilfoto.jpg) no-repeat center center fixed;
     border-radius: 0px;
     color: white;
     height: 200px;
-    width: 200px;
-    margin-left: 81px;
-    
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .mini_billede{
     position: fixed;
     width: 50px;
+    margin-top: -43px;
+}
+
+.knap{
+    width: 70px;
+    position: fixed;
+    margin-top: -43px;
+    display: flex;
+    margin-left: 29px;
 }
 
 #foto{
