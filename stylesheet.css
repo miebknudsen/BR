@@ -1,5 +1,8 @@
 /*LOGIN*/
 
+.login {
+    background: none;
+}
 *{
     box-sizing: border-box;
 }
@@ -9,7 +12,9 @@
     src: url(lemon_milk/LEMONMILK-Regular.otf);
   }
 
-
+.hovedetekst1 {
+    font-size: 30px;
+}
 form{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -350,10 +355,94 @@ margin: 0px;
 
 .qrjagt {
     background: none;
-    
 }
-
-
+    .hovedetekst {
+        text-align: center;
+        margin-top: 49px;
+    }
+    
+    .underoverskrift {
+        text-align: center;
+    }
+    
+    .qrkode {
+        margin-left: 71px;
+        margin-top: 20px;
+        width: 215px;
+        margin-bottom: 10px;
+    }
+    
+    .søgning {
+        font-family: lemonmilk;
+        text-align: center;
+        background-color: #056DB5;
+        border-radius: 17px;
+        color: white;
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 65px;
+        width: 215px;
+        margin-left: 72px;
+        margin-top: 32px;
+    }
+    
+    .pil {
+        width: 95px;
+        margin-left: 192px;
+    }
+    
+    .pil_tekst {
+        margin-top: -36px;
+        margin-left: 193px;
+        font-size: 13px;
+        color: white;
+    }
+    
+    /* fundet 15 pakker */ 
+    
+    .fundet_boks {
+        margin: 30px;
+        background-color: #ffffff;
+        border: 1px solid black;
+        opacity: 0.8;
+        margin: 5%;
+        font-weight: bold;
+        color: #000000;
+        margin-top: 95px;
+      }
+    
+    
+      .tilykke {
+          font-family: lemonmilk;
+          text-align: center;
+          font-size: 40px;
+          margin-top: none;
+      }
+    
+      .fundet {
+          font-family:lemonmilk;
+          text-align: center;
+          font-size: 20px;
+          padding: 1px;
+      }
+    
+      .logo_br {
+          width: 150px;
+          margin-left: 93px;
+      }
+    
+      .pil_færdig {
+          width: 101px;
+          margin-left: 250px;
+      }
+        .færdig {
+            margin-top: -37px;
+            margin-left: 264px;
+            color: white;
+    }
+    
 /*KAMERA*/
 
 .KAMERA{
@@ -399,8 +488,8 @@ background: url(img/fototilfoto.jpg) no-repeat center center fixed;
     border-radius: 0px;
     color: white;
     height: 200px;
-    width: 200px;
-    margin-left: 81px;
+    width: 500px;
+    max-width: 100%;
     
 }
 
@@ -412,89 +501,64 @@ background: url(img/fototilfoto.jpg) no-repeat center center fixed;
 #foto{
     color: yellow;
 }
-.hovedetekst {
-    text-align: center;
-    margin-top: 49px;
+
+/*julemandenssæk*/
+
+.sæk_body {
+    margin-bottom: 610px;
+    background: none;
+    background-image: url(img/Ubrsæk1.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 350px;
+    min-height: 10vh;
+
+
 }
 
-.underoverskrift {
-    text-align: center;
-}
-
-.qrkode {
-    margin-left: 71px;
-    margin-top: 20px;
-    width: 215px;
-    margin-bottom: 10px;
-}
-
-.søgning {
+.vokser {
     font-family: lemonmilk;
     text-align: center;
-    background-color: #056DB5;
-    border-radius: 17px;
-    color: white;
-    font-size: 14px;
+    font-size: 25px;
+}
+
+/* Ønskeliste til forældre*/ 
+
+.ønsker {
+    background: none;
+}
+
+.ønskeliste_logo {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 65px;
-    width: 215px;
-    margin-left: 72px;
-    margin-top: 32px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.hjørne_logo {
+    width: 150px;
 }
 
-.pil {
-    width: 95px;
-    margin-left: 192px;
+.ønske_skrift {
+    font-family: lemonmilk;
+    font-size: 26px;
+    margin-top: 55px;
 }
 
-.pil_tekst {
-    margin-top: -36px;
-    margin-left: 193px;
-    font-size: 13px;
-    color: white;
+.liste {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 354px;
+    margin-left: 10px;
 }
 
-/* fundet 15 pakker */ 
-
-.fundet_boks {
-    margin: 30px;
-    background-color: #ffffff;
-    border: 1px solid black;
-    opacity: 0.8;
-    margin: 5%;
-    font-weight: bold;
-    color: #000000;
-    margin-top: 95px;
-  }
-
-
-  .tilykke {
-      font-family: lemonmilk;
-      text-align: center;
-      font-size: 40px;
-      margin-top: none;
-  }
-
-  .fundet {
-      font-family:lemonmilk;
-      text-align: center;
-      font-size: 20px;
-      padding: 1px;
-  }
-
-  .logo_br {
-      width: 150px;
-      margin-left: 93px;
-  }
-
-  .pil_færdig {
-      width: 101px;
-      margin-left: 250px;
-  }
-    .færdig {
-        margin-top: -37px;
-        margin-left: 264px;
-        color: white;
+.køretøj {
+    margin-top: 10px;
 }
+
+.dyr {
+    margin-top: 5px;
+}
+
+.kryds_ønskeliste {
+    margin-top: 50px;
+}
+
