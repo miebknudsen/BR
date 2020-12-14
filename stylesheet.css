@@ -69,8 +69,159 @@ form{
     justify-self: center;
     width: 65%;
 }
+/*INTRO*/ 
 
+.julejagtkasse{
+    background-color: white;
+    border-radius: 25px;
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    width: 350px;
+    margin-left: 5px;
+    border: 2px solid #056DB5;
+    position: relative;
+}
+
+
+.julejagt_intro{
+    font-family: lemonmilk;
+position: absolute;
+margin-top: -120px;
+}
+
+.intro_julejagt{
+    font-family: lemonmilk;
+    position: absolute;
+    margin-top: 134px;
+    font-size: 16px;
+}
+
+.intro_julejagt1{
+    font-size: lemonmilk;
+    position: absolute;
+    margin-top: 177px;
+    font-size: 16px;
+}
+
+.julemand{
+    width: 340px;
+}
+
+.adventskasse{
+    background-color: white;
+    border-radius: 25px;
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    width: 350px;
+    margin-left: 5px;
+    border: 2px solid #056DB5;
+    position: relative;
+    margin-top: 15px;
+}
+
+.adventskalender_intro{
+    font-family: lemonmilk;
+    position: absolute;
+    margin-top: -120px;
+}
+
+.pakkerne_intro{
+    width: 278px;
+    margin-top: -16px;
+}
+
+.intro_adventskalender{
+    font-family: lemonmilk;
+    position: absolute;
+    margin-top: 145px;
+    margin-left: 12px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.ønskelistekasse{
+    background-color: white;
+    border-radius: 25px;
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    width: 350px;
+    margin-left: 5px;
+    border: 2px solid #056DB5;
+    position: relative;
+    margin-top: 15px;
+}
+
+
+.ønskelisten_intro{
+    font-family: lemonmilk;
+    position: absolute;
+    margin-top: -120px;
+}
+
+.intro_ønskelisten{
+    font-family: lemonmilk;
+    position: absolute;
+    margin-top: -17px;
+    font-size: 13px;
+    text-align: center;
+    margin-left: 66px;
+}
+
+.intro_ønskelisten1{
+    font-family: lemonmilk;
+    position: absolute;
+    margin-top: 177px;
+    font-size: 13px;
+    margin-left: 64px;
+    margin-top: 89px;
+    text-align: center;
+}
+
+.telefon_intro{
+   /*  width: 104px;
+    margin-top: -11px;
+    margin-left: 15px; */
+    width: 64px;
+    margin-top: -11px;
+    margin-left: -280px;
+}
+
+.liste_intro{
+    position: fixed;
+    margin-top: -180px;
+    margin-left: 270px;
+    width: 55px;
+}
+
+.komigang{
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 25px;
+height: 50px;
+background-color: #056DB5;
+font-family: lemonmilk;
+color: white;
+font-size: 15px;
+margin-top: 20px;
+width: 135px;
+border: none;
+margin-left: 114px;
+}
 /*HOME*/
+
+a:link {
+    text-decoration: none;
+}
 
 .overskrift {
     font-size: 28px; 
@@ -240,7 +391,6 @@ h1 {
       font-size: 20px;
       text-align: center;
       margin-right: 5px;
-
   }
 
   .gem {
@@ -401,7 +551,7 @@ margin: 0px;
     
     .pil_tekst {
         margin-top: -36px;
-        margin-left: 193px;
+        margin-left: 195px;
         font-size: 13px;
         color: white;
     }
@@ -665,7 +815,7 @@ background: url(img/fototilfoto.jpg) no-repeat center center fixed;
     text-align: center;
     font-size: 30px;
     font-family: lemonmilk;
-    margin-top: 50px;
+    margin-top: 40px;
     margin-bottom: 26px;
 }
 
