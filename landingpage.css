@@ -1,0 +1,18 @@
+.baggrund{
+    background-image: url(img/lp.png);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+   margin: 0px;
+   position: fixed;
+   background-repeat: no-repeat;
+}
+
+h1{
+    font-family: lemon milk;
+    color: white;
+    text-align: center;
+    font-size: 45px;
+}
+
+.overskrifterne
